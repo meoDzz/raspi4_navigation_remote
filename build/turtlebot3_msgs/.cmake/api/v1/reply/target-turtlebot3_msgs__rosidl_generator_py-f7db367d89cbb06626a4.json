@@ -612,16 +612,16 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 14,
+			"id" : "turtlebot3_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 65,
 			"id" : "turtlebot3_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 65,
 			"id" : "turtlebot3_msgs__py::@8d3049d8a8d34d6612fe"
-		},
-		{
-			"backtrace" : 14,
-			"id" : "turtlebot3_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "turtlebot3_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
