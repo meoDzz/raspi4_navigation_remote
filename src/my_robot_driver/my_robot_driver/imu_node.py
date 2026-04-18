@@ -249,7 +249,7 @@ class ImuNode(Node):
         
         msg.linear_acceleration.x = filtered_accel['x']
         msg.linear_acceleration.y = filtered_accel['y']
-        msg.linear_acceleration.z = filtered_accel['z']
+        msg.linear_acceleration.z = filtered_accel['z'] + 9.81
         
         msg.angular_velocity.x = filtered_gyro['x']
         msg.angular_velocity.y = filtered_gyro['y']

@@ -1,0 +1,27 @@
+[0.139s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.221s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.235s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3_cartographer
+[1.375s] -- Install configuration: ""
+[1.376s] -- Execute custom install script
+[1.399s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/localization.lua
+[1.400s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/localization_combineIMU.lua
+[1.496s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.505s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.506s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.517s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.518s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.520s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.521s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.522s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.528s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.529s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.536s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.550s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.552s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.555s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.556s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.631s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.632s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.635s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.642s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.900s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3_cartographer

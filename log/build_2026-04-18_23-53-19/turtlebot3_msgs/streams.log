@@ -1,0 +1,6 @@
+[0.145s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/my_robot_driver:/opt/ros/jazzy /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3_msgs
+[1.948s] -- The C compiler identification is GNU 13.3.0
+[3.017s] -- The CXX compiler identification is GNU 13.3.0
+[3.152s] -- Detecting C compiler ABI info
+[3.923s] -- Detecting C compiler ABI info - done
+[4.040s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/my_robot_driver:/opt/ros/jazzy /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3_msgs

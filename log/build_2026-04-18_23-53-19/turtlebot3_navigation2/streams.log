@@ -1,0 +1,4 @@
+[0.112s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/my_robot_driver:/opt/ros/jazzy /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3_navigation2
+[1.855s] -- The C compiler identification is GNU 13.3.0
+[2.914s] -- The CXX compiler identification is GNU 13.3.0
+[3.052s] -- Detecting C compiler ABI info

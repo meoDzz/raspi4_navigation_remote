@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "turtlebot3_msgs/action/detail/patrol__functions.h"
 #include "turtlebot3_msgs/action/detail/patrol__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "turtlebot3_msgs/action/detail/patrol__struct.h"
 
 #ifdef __cplusplus

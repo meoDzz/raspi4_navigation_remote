@@ -1,0 +1,18 @@
+[7.479s] Invoking command in '/home/pi/turtlebot3_ws/build/my_robot_driver': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data
+[9.612s] running develop
+[11.167s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[11.168s]   self.local_index = Environment(self.shadow_path + sys.path)
+[11.467s] running egg_info
+[11.590s] writing my_robot_driver.egg-info/PKG-INFO
+[11.594s] writing dependency_links to my_robot_driver.egg-info/dependency_links.txt
+[11.595s] deleting my_robot_driver.egg-info/entry_points.txt
+[11.598s] writing requirements to my_robot_driver.egg-info/requires.txt
+[11.600s] writing top-level names to my_robot_driver.egg-info/top_level.txt
+[11.879s] reading manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[11.883s] writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[12.050s] running build_ext
+[12.050s] Creating /home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages/my-robot-driver.egg-link (link to .)
+[12.054s] 
+[12.056s] Installed /home/pi/turtlebot3_ws/build/my_robot_driver
+[12.059s] running symlink_data
+[12.276s] Invoked command in '/home/pi/turtlebot3_ws/build/my_robot_driver' returned '0': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data

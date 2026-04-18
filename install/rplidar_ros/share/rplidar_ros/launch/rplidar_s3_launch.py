@@ -1,1 +1,0 @@
-/home/pi/turtlebot3_ws/src/rplidar_ros/launch/rplidar_s3_launch.py
