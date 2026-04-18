@@ -1,0 +1,27 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable ld08_driver[0m
+[100%] Built target ld08_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+-- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml

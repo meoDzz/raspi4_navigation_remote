@@ -1,0 +1,54 @@
+[0.115s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3_msgs
+[1.627s] -- The C compiler identification is GNU 13.3.0
+[2.889s] -- The CXX compiler identification is GNU 13.3.0
+[3.050s] -- Detecting C compiler ABI info
+[3.689s] -- Detecting C compiler ABI info - done
+[3.730s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.733s] -- Detecting C compile features
+[3.736s] -- Detecting C compile features - done
+[3.784s] -- Detecting CXX compiler ABI info
+[4.436s] -- Detecting CXX compiler ABI info - done
+[4.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.480s] -- Detecting CXX compile features
+[4.482s] -- Detecting CXX compile features - done
+[4.513s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[5.642s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.183s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.345s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.353s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[8.541s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.597s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[8.769s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[12.771s] -- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[12.808s] -- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[12.844s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[12.881s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[17.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.964s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[20.878s] -- Found PythonExtra: /usr/bin/python3  
+[25.958s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[26.626s] -- Found ament_cmake_flake8: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[26.678s] -- Found ament_cmake_pep257: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[26.916s] -- Configuring done (26.5s)
+[27.585s] -- Generating done (0.6s)
+[27.671s] -- Build files have been written to: /home/pi/turtlebot3_ws/build/turtlebot3_msgs
+[27.755s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3_msgs
+[27.761s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_msgs -- -j4 -l4
+[28.214s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[28.428s] [  1%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[32.956s] running egg_info
+[32.981s] creating turtlebot3_msgs.egg-info
+[33.505s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[33.510s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[33.523s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[33.528s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[34.027s] [  1%] Built target turtlebot3_msgs__rosidl_generator_type_description
+[34.181s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[34.389s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35.086s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[35.096s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[35.524s] [  3%] Built target ament_cmake_python_build_turtlebot3_msgs_egg

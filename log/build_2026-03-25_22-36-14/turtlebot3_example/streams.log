@@ -1,0 +1,31 @@
+[4.286s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[5.865s] running develop
+[6.738s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.738s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.962s] running egg_info
+[6.963s] creating turtlebot3_example.egg-info
+[7.054s] writing turtlebot3_example.egg-info/PKG-INFO
+[7.055s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[7.056s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[7.057s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[7.057s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[7.058s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[7.244s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[7.247s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[7.345s] running build_ext
+[7.346s] Creating /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[7.349s] Installing turtlebot3_absolute_move script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.349s] Installing turtlebot3_interactive_marker script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.350s] Installing turtlebot3_obstacle_detection script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.351s] Installing turtlebot3_patrol_client script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.352s] Installing turtlebot3_patrol_server script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.352s] Installing turtlebot3_relative_move script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.354s] 
+[7.354s] Installed /home/pi/turtlebot3_ws/build/turtlebot3_example
+[7.355s] running symlink_data
+[7.355s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[7.356s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[7.356s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[7.357s] symbolically linking /home/pi/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[7.358s] symbolically linking /home/pi/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/pi/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[7.528s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

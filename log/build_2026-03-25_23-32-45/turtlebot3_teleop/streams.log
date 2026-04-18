@@ -1,0 +1,19 @@
+[4.412s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[5.858s] running develop
+[6.635s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.636s]   self.local_index = Environment(self.shadow_path + sys.path)
+[6.831s] running egg_info
+[6.912s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[6.913s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[6.915s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[6.916s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[6.917s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[7.089s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[7.093s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[7.183s] running build_ext
+[7.183s] Creating /home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[7.186s] Installing teleop_keyboard script to /home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[7.187s] 
+[7.188s] Installed /home/pi/turtlebot3_ws/build/turtlebot3_teleop
+[7.188s] running symlink_data
+[7.349s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

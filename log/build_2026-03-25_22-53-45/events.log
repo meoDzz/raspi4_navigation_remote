@@ -1,0 +1,1262 @@
+[0.000000] (-) TimerEvent: {}
+[0.001587] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.001714] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.001786] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.001851] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.001938] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.002010] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.002071] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict({'turtlebot3_msgs': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs'})}
+[0.002148] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict({'turtlebot3_msgs': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs'})}
+[0.002217] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict({'turtlebot3_description': '/home/pi/turtlebot3_ws/install/turtlebot3_description', 'turtlebot3_msgs': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs', 'turtlebot3_node': '/home/pi/turtlebot3_ws/install/turtlebot3_node'})}
+[0.002292] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict({'turtlebot3_cartographer': '/home/pi/turtlebot3_ws/install/turtlebot3_cartographer', 'turtlebot3_description': '/home/pi/turtlebot3_ws/install/turtlebot3_description', 'turtlebot3_msgs': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs', 'turtlebot3_navigation2': '/home/pi/turtlebot3_ws/install/turtlebot3_navigation2', 'turtlebot3_teleop': '/home/pi/turtlebot3_ws/install/turtlebot3_teleop', 'turtlebot3_example': '/home/pi/turtlebot3_ws/install/turtlebot3_example', 'turtlebot3_node': '/home/pi/turtlebot3_ws/install/turtlebot3_node', 'turtlebot3_bringup': '/home/pi/turtlebot3_ws/install/turtlebot3_bringup'})}
+[0.002417] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.058489] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.072459] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'build'}
+[0.075421] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/turtlebot3_ws/build/turtlebot3_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.2 51129 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.18"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/turtlebot3_ws/build/turtlebot3_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.2 51129 192.168.1.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099175] (-) TimerEvent: {}
+[0.199862] (-) TimerEvent: {}
+[0.300631] (-) TimerEvent: {}
+[0.401666] (-) TimerEvent: {}
+[0.502588] (-) TimerEvent: {}
+[0.603427] (-) TimerEvent: {}
+[0.704065] (-) TimerEvent: {}
+[0.804777] (-) TimerEvent: {}
+[0.905665] (-) TimerEvent: {}
+[1.006467] (-) TimerEvent: {}
+[1.032299] (turtlebot3_msgs) StdoutLine: {'line': b'[  1%] Built target turtlebot3_msgs__rosidl_generator_type_description\n'}
+[1.106648] (-) TimerEvent: {}
+[1.207276] (-) TimerEvent: {}
+[1.217291] (turtlebot3_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_turtlebot3_msgs\n'}
+[1.307472] (-) TimerEvent: {}
+[1.408093] (-) TimerEvent: {}
+[1.487884] (turtlebot3_msgs) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_msgs__rosidl_generator_c\n'}
+[1.508287] (-) TimerEvent: {}
+[1.608960] (-) TimerEvent: {}
+[1.709593] (-) TimerEvent: {}
+[1.810262] (-) TimerEvent: {}
+[1.910850] (-) TimerEvent: {}
+[2.011483] (-) TimerEvent: {}
+[2.112011] (-) TimerEvent: {}
+[2.212527] (-) TimerEvent: {}
+[2.313047] (-) TimerEvent: {}
+[2.413539] (-) TimerEvent: {}
+[2.463941] (turtlebot3_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.513682] (-) TimerEvent: {}
+[2.551750] (turtlebot3_msgs) StdoutLine: {'line': b'writing turtlebot3_msgs.egg-info/PKG-INFO\n'}
+[2.552886] (turtlebot3_msgs) StdoutLine: {'line': b'writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt\n'}
+[2.554357] (turtlebot3_msgs) StdoutLine: {'line': b'writing top-level names to turtlebot3_msgs.egg-info/top_level.txt\n'}
+[2.613830] (-) TimerEvent: {}
+[2.714422] (-) TimerEvent: {}
+[2.811262] (turtlebot3_msgs) StdoutLine: {'line': b"reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'\n"}
+[2.814665] (turtlebot3_msgs) StdoutLine: {'line': b"writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'\n"}
+[2.815365] (-) TimerEvent: {}
+[2.916242] (-) TimerEvent: {}
+[2.970183] (turtlebot3_msgs) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_turtlebot3_msgs_egg\n'}
+[3.016437] (-) TimerEvent: {}
+[3.117115] (-) TimerEvent: {}
+[3.167119] (turtlebot3_msgs) StdoutLine: {'line': b'[ 35%] Built target turtlebot3_msgs__rosidl_typesupport_c\n'}
+[3.217284] (-) TimerEvent: {}
+[3.317967] (-) TimerEvent: {}
+[3.404991] (turtlebot3_msgs) StdoutLine: {'line': b'[ 44%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.418108] (-) TimerEvent: {}
+[3.518722] (-) TimerEvent: {}
+[3.595173] (turtlebot3_msgs) StdoutLine: {'line': b'[ 54%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c\n'}
+[3.618980] (-) TimerEvent: {}
+[3.719702] (-) TimerEvent: {}
+[3.744859] (turtlebot3_msgs) StdoutLine: {'line': b'[ 55%] Built target turtlebot3_msgs__cpp\n'}
+[3.819891] (-) TimerEvent: {}
+[3.920550] (-) TimerEvent: {}
+[3.966045] (turtlebot3_msgs) StdoutLine: {'line': b'[ 64%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.020750] (-) TimerEvent: {}
+[4.121417] (-) TimerEvent: {}
+[4.170301] (turtlebot3_msgs) StdoutLine: {'line': b'[ 74%] Built target turtlebot3_msgs__rosidl_typesupport_cpp\n'}
+[4.221668] (-) TimerEvent: {}
+[4.322294] (-) TimerEvent: {}
+[4.380040] (turtlebot3_msgs) StdoutLine: {'line': b'[ 84%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.422490] (-) TimerEvent: {}
+[4.516767] (turtlebot3_msgs) StdoutLine: {'line': b'[ 84%] Built target turtlebot3_msgs\n'}
+[4.528520] (-) TimerEvent: {}
+[4.629099] (-) TimerEvent: {}
+[4.664405] (turtlebot3_msgs) StdoutLine: {'line': b'[ 85%] Built target turtlebot3_msgs__py\n'}
+[4.729304] (-) TimerEvent: {}
+[4.830081] (-) TimerEvent: {}
+[4.890992] (turtlebot3_msgs) StdoutLine: {'line': b'[ 93%] Built target turtlebot3_msgs__rosidl_generator_py\n'}
+[4.930257] (-) TimerEvent: {}
+[5.030861] (-) TimerEvent: {}
+[5.050378] (turtlebot3_msgs) StdoutLine: {'line': b'[ 95%] Built target turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[5.131048] (-) TimerEvent: {}
+[5.208403] (turtlebot3_msgs) StdoutLine: {'line': b'[ 97%] Built target turtlebot3_msgs_s__rosidl_typesupport_c\n'}
+[5.231229] (-) TimerEvent: {}
+[5.331849] (-) TimerEvent: {}
+[5.362320] (turtlebot3_msgs) StdoutLine: {'line': b'[100%] Built target turtlebot3_msgs_s__rosidl_typesupport_introspection_c\n'}
+[5.432410] (-) TimerEvent: {}
+[5.435126] (turtlebot3_msgs) CommandEnded: {'returncode': 0}
+[5.440453] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'install'}
+[5.502287] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/turtlebot3_ws/build/turtlebot3_msgs'], 'cwd': '/home/pi/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.2 51129 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.18"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/turtlebot3_ws/build/turtlebot3_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.2 51129 192.168.1.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.532584] (-) TimerEvent: {}
+[5.559490] (turtlebot3_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.563286] (turtlebot3_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.568294] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs\n'}
+[5.571192] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.json\n'}
+[5.573047] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.json\n'}
+[5.574922] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.json\n'}
+[5.577263] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.json\n'}
+[5.579032] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.json\n'}
+[5.580776] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.json\n'}
+[5.583003] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.json\n'}
+[5.595653] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.h\n'}
+[5.597358] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.h\n'}
+[5.599077] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.h\n'}
+[5.600614] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.h\n'}
+[5.603202] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.h\n'}
+[5.604772] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.h\n'}
+[5.606456] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.h\n'}
+[5.607987] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.h\n'}
+[5.609845] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.h\n'}
+[5.611785] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.h\n'}
+[5.613723] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.h\n'}
+[5.615659] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.h\n'}
+[5.617619] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.h\n'}
+[5.619447] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.620941] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.h\n'}
+[5.622443] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.h\n'}
+[5.623900] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.h\n'}
+[5.626354] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.h\n'}
+[5.627880] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.h\n'}
+[5.629556] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.h\n'}
+[5.631209] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__functions.h\n'}
+[5.632688] (-) TimerEvent: {}
+[5.633154] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.h\n'}
+[5.634593] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.h\n'}
+[5.636264] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.h\n'}
+[5.637886] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.h\n'}
+[5.639560] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.h\n'}
+[5.641058] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.h\n'}
+[5.642554] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.h\n'}
+[5.644028] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.h\n'}
+[5.646289] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh\n'}
+[5.647923] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv\n'}
+[5.655284] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h\n'}
+[5.656974] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[5.658666] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h\n'}
+[5.660295] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h\n'}
+[5.661808] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.663351] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h\n'}
+[5.664858] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_c.h\n'}
+[5.666440] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h\n'}
+[5.672579] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__builder.hpp\n'}
+[5.674134] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.hpp\n'}
+[5.675719] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__traits.hpp\n'}
+[5.677335] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.hpp\n'}
+[5.678812] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.hpp\n'}
+[5.680449] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp\n'}
+[5.681950] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp\n'}
+[5.683464] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp\n'}
+[5.684981] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp\n'}
+[5.686500] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__builder.hpp\n'}
+[5.688059] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.hpp\n'}
+[5.689657] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__traits.hpp\n'}
+[5.691389] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.hpp\n'}
+[5.693063] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__builder.hpp\n'}
+[5.694696] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.hpp\n'}
+[5.696487] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__traits.hpp\n'}
+[5.698213] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.hpp\n'}
+[5.699781] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.701338] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.hpp\n'}
+[5.702801] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.hpp\n'}
+[5.704326] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.hpp\n'}
+[5.705880] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__builder.hpp\n'}
+[5.707480] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.hpp\n'}
+[5.709048] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__traits.hpp\n'}
+[5.710661] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.hpp\n'}
+[5.712225] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__builder.hpp\n'}
+[5.713765] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.hpp\n'}
+[5.715359] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__traits.hpp\n'}
+[5.716901] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.hpp\n'}
+[5.718497] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__builder.hpp\n'}
+[5.720043] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.hpp\n'}
+[5.721628] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__traits.hpp\n'}
+[5.723208] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.hpp\n'}
+[5.724677] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.hpp\n'}
+[5.726194] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.hpp\n'}
+[5.727690] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.hpp\n'}
+[5.732818] (-) TimerEvent: {}
+[5.736113] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.737840] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.739586] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.741214] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.742692] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.744270] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.745851] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.747450] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.752103] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h\n'}
+[5.753732] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h\n'}
+[5.755369] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h\n'}
+[5.757009] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h\n'}
+[5.758598] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.760232] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h\n'}
+[5.761825] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_c.h\n'}
+[5.763474] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h\n'}
+[5.768076] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.769744] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.771454] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.773067] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.774732] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.776382] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.778035] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.779689] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh\n'}
+[5.781316] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv\n'}
+[5.785807] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs-2.4.0-py3.12.egg-info/PKG-INFO\n'}
+[5.787282] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs-2.4.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.788806] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs-2.4.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.790339] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs-2.4.0-py3.12.egg-info/top_level.txt\n'}
+[5.800035] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/__init__.py\n'}
+[5.801576] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.803043] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.804523] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.806456] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/action/__init__.py\n'}
+[5.807880] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/action/_patrol.py\n'}
+[5.809472] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/action/_patrol_s.c\n'}
+[5.811483] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/__init__.py\n'}
+[5.813156] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_sensor_state.py\n'}
+[5.814715] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_sensor_state_s.c\n'}
+[5.816274] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_sound.py\n'}
+[5.817806] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_sound_s.c\n'}
+[5.819403] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_version_info.py\n'}
+[5.820976] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg/_version_info_s.c\n'}
+[5.823052] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/__init__.py\n'}
+[5.824849] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_dqn.py\n'}
+[5.826448] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_dqn_s.c\n'}
+[5.827992] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_goal.py\n'}
+[5.829576] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_goal_s.c\n'}
+[5.831143] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_sound.py\n'}
+[5.832706] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv/_sound_s.c\n'}
+[5.833308] (-) TimerEvent: {}
+[5.834342] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.so\n'}
+[5.835896] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.837610] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.840105] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.842345] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.844446] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.so\n'}
+[5.846301] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl\n'}
+[5.847998] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl\n'}
+[5.849676] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl\n'}
+[5.851440] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl\n'}
+[5.853109] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl\n'}
+[5.854749] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.idl\n'}
+[5.856463] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl\n'}
+[5.858091] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg\n'}
+[5.859151] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg\n'}
+[5.860704] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg\n'}
+[5.861802] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv\n'}
+[5.862847] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv\n'}
+[5.863884] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.srv\n'}
+[5.865488] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action\n'}
+[5.867774] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs\n'}
+[5.870038] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs\n'}
+[5.871733] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh\n'}
+[5.873396] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv\n'}
+[5.875048] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh\n'}
+[5.876607] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv\n'}
+[5.878191] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash\n'}
+[5.879714] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh\n'}
+[5.881354] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh\n'}
+[5.882989] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv\n'}
+[5.883809] (turtlebot3_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv\n'}
+[5.933510] (-) TimerEvent: {}
+[5.945132] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs\n'}
+[5.947055] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.948627] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.950227] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.951721] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.953296] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.954858] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.956557] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.958213] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake\n'}
+[5.959605] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake\n'}
+[5.960651] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml\n'}
+[5.964418] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so\n'}
+[5.968987] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.973681] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.978377] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.983093] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so\n'}
+[5.987958] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.992565] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so\n'}
+[6.033652] (-) TimerEvent: {}
+[6.134299] (-) TimerEvent: {}
+[6.171523] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs'...\n"}
+[6.172954] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/action'...\n"}
+[6.174000] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/msg'...\n"}
+[6.175089] (turtlebot3_msgs) StdoutLine: {'line': b"Listing '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages/turtlebot3_msgs/srv'...\n"}
+[6.205253] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so\n'}
+[6.209800] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport.cmake\n'}
+[6.210495] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.212757] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.213391] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.215782] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.218641] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.219367] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.221931] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.222636] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.225261] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.226041] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.228422] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.229073] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.231747] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.232433] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.234424] (-) TimerEvent: {}
+[6.234948] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.235751] (turtlebot3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.245300] (turtlebot3_msgs) CommandEnded: {'returncode': 0}
+[6.334879] (-) TimerEvent: {}
+[6.409851] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 0}
+[6.413199] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[6.435050] (-) TimerEvent: {}
+[6.443749] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[6.448601] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[6.449600] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/turtlebot3_ws/build/turtlebot3_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/turtlebot3_ws/build/turtlebot3_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.2 51129 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.18"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/turtlebot3_ws/build/turtlebot3_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.2 51129 192.168.1.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.535243] (-) TimerEvent: {}
+[6.635869] (-) TimerEvent: {}
+[6.731737] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[6.736061] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[6.736256] (-) TimerEvent: {}
+[6.737266] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/turtlebot3_ws/build/turtlebot3_description'], 'cwd': '/home/pi/turtlebot3_ws/build/turtlebot3_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.2 51129 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.18"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/turtlebot3_ws/build/turtlebot3_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.2 51129 192.168.1.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.792640] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.795564] (turtlebot3_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.804172] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[6.805631] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[6.807161] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[6.809345] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[6.811060] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[6.812850] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[6.814620] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[6.816381] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[6.818526] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[6.820081] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[6.823663] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz\n'}
+[6.827506] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[6.829009] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[6.830587] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf\n'}
+[6.832163] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[6.835673] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[6.836284] (-) TimerEvent: {}
+[6.838431] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[6.840742] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[6.842520] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[6.844307] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[6.846036] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[6.847710] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[6.849451] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[6.851187] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[6.852783] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[6.853605] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[6.911141] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[6.913141] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[6.914529] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[6.916076] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[6.922935] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[6.936786] (-) TimerEvent: {}
+[6.985132] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[6.988367] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[7.034660] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[7.037477] (-) TimerEvent: {}
+[7.040341] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'build'}
+[7.041545] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/turtlebot3_ws/build/turtlebot3_node', '--', '-j4', '-l4'], 'cwd': '/home/pi/turtlebot3_ws/build/turtlebot3_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.2 51129 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.18"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/turtlebot3_ws/build/turtlebot3_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.2 51129 192.168.1.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.137697] (-) TimerEvent: {}
+[7.238350] (-) TimerEvent: {}
+[7.339001] (-) TimerEvent: {}
+[7.434753] (turtlebot3_node) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o\x1b[0m\n'}
+[7.439194] (-) TimerEvent: {}
+[7.539971] (-) TimerEvent: {}
+[7.640875] (-) TimerEvent: {}
+[7.741722] (-) TimerEvent: {}
+[7.842590] (-) TimerEvent: {}
+[7.943218] (-) TimerEvent: {}
+[8.043783] (-) TimerEvent: {}
+[8.144392] (-) TimerEvent: {}
+[8.244973] (-) TimerEvent: {}
+[8.345533] (-) TimerEvent: {}
+[8.446188] (-) TimerEvent: {}
+[8.546798] (-) TimerEvent: {}
+[8.647564] (-) TimerEvent: {}
+[8.748333] (-) TimerEvent: {}
+[8.848959] (-) TimerEvent: {}
+[8.949554] (-) TimerEvent: {}
+[9.050232] (-) TimerEvent: {}
+[9.150808] (-) TimerEvent: {}
+[9.251441] (-) TimerEvent: {}
+[9.352090] (-) TimerEvent: {}
+[9.452855] (-) TimerEvent: {}
+[9.553450] (-) TimerEvent: {}
+[9.654188] (-) TimerEvent: {}
+[9.754816] (-) TimerEvent: {}
+[9.855485] (-) TimerEvent: {}
+[9.956159] (-) TimerEvent: {}
+[10.056814] (-) TimerEvent: {}
+[10.157448] (-) TimerEvent: {}
+[10.258094] (-) TimerEvent: {}
+[10.358722] (-) TimerEvent: {}
+[10.459397] (-) TimerEvent: {}
+[10.560038] (-) TimerEvent: {}
+[10.660619] (-) TimerEvent: {}
+[10.761228] (-) TimerEvent: {}
+[10.861844] (-) TimerEvent: {}
+[10.962528] (-) TimerEvent: {}
+[11.063205] (-) TimerEvent: {}
+[11.164044] (-) TimerEvent: {}
+[11.264668] (-) TimerEvent: {}
+[11.365435] (-) TimerEvent: {}
+[11.466070] (-) TimerEvent: {}
+[11.566709] (-) TimerEvent: {}
+[11.667377] (-) TimerEvent: {}
+[11.768049] (-) TimerEvent: {}
+[11.868713] (-) TimerEvent: {}
+[11.969414] (-) TimerEvent: {}
+[12.070069] (-) TimerEvent: {}
+[12.170727] (-) TimerEvent: {}
+[12.271416] (-) TimerEvent: {}
+[12.372120] (-) TimerEvent: {}
+[12.472793] (-) TimerEvent: {}
+[12.573488] (-) TimerEvent: {}
+[12.674211] (-) TimerEvent: {}
+[12.774835] (-) TimerEvent: {}
+[12.875517] (-) TimerEvent: {}
+[12.976178] (-) TimerEvent: {}
+[13.076804] (-) TimerEvent: {}
+[13.177508] (-) TimerEvent: {}
+[13.278197] (-) TimerEvent: {}
+[13.378839] (-) TimerEvent: {}
+[13.479512] (-) TimerEvent: {}
+[13.580196] (-) TimerEvent: {}
+[13.680836] (-) TimerEvent: {}
+[13.781560] (-) TimerEvent: {}
+[13.882244] (-) TimerEvent: {}
+[13.982962] (-) TimerEvent: {}
+[14.083694] (-) TimerEvent: {}
+[14.184472] (-) TimerEvent: {}
+[14.285116] (-) TimerEvent: {}
+[14.385740] (-) TimerEvent: {}
+[14.486470] (-) TimerEvent: {}
+[14.587202] (-) TimerEvent: {}
+[14.687844] (-) TimerEvent: {}
+[14.788588] (-) TimerEvent: {}
+[14.889306] (-) TimerEvent: {}
+[14.989986] (-) TimerEvent: {}
+[15.090622] (-) TimerEvent: {}
+[15.191315] (-) TimerEvent: {}
+[15.292001] (-) TimerEvent: {}
+[15.392625] (-) TimerEvent: {}
+[15.493379] (-) TimerEvent: {}
+[15.594034] (-) TimerEvent: {}
+[15.694685] (-) TimerEvent: {}
+[15.795457] (-) TimerEvent: {}
+[15.896073] (-) TimerEvent: {}
+[15.996701] (-) TimerEvent: {}
+[16.097426] (-) TimerEvent: {}
+[16.198047] (-) TimerEvent: {}
+[16.298658] (-) TimerEvent: {}
+[16.399341] (-) TimerEvent: {}
+[16.500009] (-) TimerEvent: {}
+[16.600645] (-) TimerEvent: {}
+[16.701329] (-) TimerEvent: {}
+[16.802023] (-) TimerEvent: {}
+[16.902687] (-) TimerEvent: {}
+[17.003370] (-) TimerEvent: {}
+[17.104052] (-) TimerEvent: {}
+[17.204697] (-) TimerEvent: {}
+[17.305382] (-) TimerEvent: {}
+[17.406087] (-) TimerEvent: {}
+[17.506770] (-) TimerEvent: {}
+[17.607480] (-) TimerEvent: {}
+[17.708163] (-) TimerEvent: {}
+[17.808814] (-) TimerEvent: {}
+[17.909560] (-) TimerEvent: {}
+[18.010230] (-) TimerEvent: {}
+[18.110864] (-) TimerEvent: {}
+[18.211619] (-) TimerEvent: {}
+[18.312299] (-) TimerEvent: {}
+[18.412976] (-) TimerEvent: {}
+[18.513589] (-) TimerEvent: {}
+[18.614268] (-) TimerEvent: {}
+[18.714973] (-) TimerEvent: {}
+[18.815630] (-) TimerEvent: {}
+[18.916420] (-) TimerEvent: {}
+[19.017054] (-) TimerEvent: {}
+[19.117712] (-) TimerEvent: {}
+[19.218413] (-) TimerEvent: {}
+[19.319058] (-) TimerEvent: {}
+[19.419707] (-) TimerEvent: {}
+[19.520386] (-) TimerEvent: {}
+[19.621039] (-) TimerEvent: {}
+[19.721692] (-) TimerEvent: {}
+[19.822377] (-) TimerEvent: {}
+[19.923048] (-) TimerEvent: {}
+[20.023664] (-) TimerEvent: {}
+[20.124342] (-) TimerEvent: {}
+[20.225007] (-) TimerEvent: {}
+[20.325628] (-) TimerEvent: {}
+[20.426341] (-) TimerEvent: {}
+[20.527030] (-) TimerEvent: {}
+[20.627666] (-) TimerEvent: {}
+[20.728350] (-) TimerEvent: {}
+[20.829028] (-) TimerEvent: {}
+[20.929653] (-) TimerEvent: {}
+[21.030369] (-) TimerEvent: {}
+[21.131055] (-) TimerEvent: {}
+[21.231673] (-) TimerEvent: {}
+[21.332372] (-) TimerEvent: {}
+[21.433020] (-) TimerEvent: {}
+[21.533627] (-) TimerEvent: {}
+[21.634300] (-) TimerEvent: {}
+[21.734974] (-) TimerEvent: {}
+[21.835589] (-) TimerEvent: {}
+[21.936261] (-) TimerEvent: {}
+[22.036887] (-) TimerEvent: {}
+[22.137581] (-) TimerEvent: {}
+[22.238426] (-) TimerEvent: {}
+[22.339074] (-) TimerEvent: {}
+[22.439807] (-) TimerEvent: {}
+[22.540497] (-) TimerEvent: {}
+[22.641223] (-) TimerEvent: {}
+[22.742077] (-) TimerEvent: {}
+[22.842837] (-) TimerEvent: {}
+[22.943510] (-) TimerEvent: {}
+[23.044100] (-) TimerEvent: {}
+[23.144739] (-) TimerEvent: {}
+[23.245445] (-) TimerEvent: {}
+[23.346070] (-) TimerEvent: {}
+[23.446688] (-) TimerEvent: {}
+[23.547360] (-) TimerEvent: {}
+[23.648030] (-) TimerEvent: {}
+[23.748645] (-) TimerEvent: {}
+[23.849327] (-) TimerEvent: {}
+[23.949963] (-) TimerEvent: {}
+[24.050616] (-) TimerEvent: {}
+[24.151293] (-) TimerEvent: {}
+[24.251948] (-) TimerEvent: {}
+[24.352566] (-) TimerEvent: {}
+[24.453261] (-) TimerEvent: {}
+[24.553866] (-) TimerEvent: {}
+[24.654561] (-) TimerEvent: {}
+[24.755433] (-) TimerEvent: {}
+[24.856254] (-) TimerEvent: {}
+[24.956971] (-) TimerEvent: {}
+[25.057739] (-) TimerEvent: {}
+[25.158430] (-) TimerEvent: {}
+[25.259088] (-) TimerEvent: {}
+[25.347871] (turtlebot3_node) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o\x1b[0m\n'}
+[25.359259] (-) TimerEvent: {}
+[25.459848] (-) TimerEvent: {}
+[25.560480] (-) TimerEvent: {}
+[25.661067] (-) TimerEvent: {}
+[25.761645] (-) TimerEvent: {}
+[25.862251] (-) TimerEvent: {}
+[25.962817] (-) TimerEvent: {}
+[26.063418] (-) TimerEvent: {}
+[26.164018] (-) TimerEvent: {}
+[26.264585] (-) TimerEvent: {}
+[26.365200] (-) TimerEvent: {}
+[26.465762] (-) TimerEvent: {}
+[26.566365] (-) TimerEvent: {}
+[26.666983] (-) TimerEvent: {}
+[26.767552] (-) TimerEvent: {}
+[26.868158] (-) TimerEvent: {}
+[26.968727] (-) TimerEvent: {}
+[27.069326] (-) TimerEvent: {}
+[27.169900] (-) TimerEvent: {}
+[27.270477] (-) TimerEvent: {}
+[27.371031] (-) TimerEvent: {}
+[27.471625] (-) TimerEvent: {}
+[27.572334] (-) TimerEvent: {}
+[27.673008] (-) TimerEvent: {}
+[27.773633] (-) TimerEvent: {}
+[27.874317] (-) TimerEvent: {}
+[27.974978] (-) TimerEvent: {}
+[28.075612] (-) TimerEvent: {}
+[28.176282] (-) TimerEvent: {}
+[28.277003] (-) TimerEvent: {}
+[28.377612] (-) TimerEvent: {}
+[28.478282] (-) TimerEvent: {}
+[28.578953] (-) TimerEvent: {}
+[28.679603] (-) TimerEvent: {}
+[28.780340] (-) TimerEvent: {}
+[28.881003] (-) TimerEvent: {}
+[28.981635] (-) TimerEvent: {}
+[29.082289] (-) TimerEvent: {}
+[29.182954] (-) TimerEvent: {}
+[29.283580] (-) TimerEvent: {}
+[29.384263] (-) TimerEvent: {}
+[29.484887] (-) TimerEvent: {}
+[29.585580] (-) TimerEvent: {}
+[29.686315] (-) TimerEvent: {}
+[29.786960] (-) TimerEvent: {}
+[29.887590] (-) TimerEvent: {}
+[29.988260] (-) TimerEvent: {}
+[30.088993] (-) TimerEvent: {}
+[30.189639] (-) TimerEvent: {}
+[30.290332] (-) TimerEvent: {}
+[30.390995] (-) TimerEvent: {}
+[30.491606] (-) TimerEvent: {}
+[30.592276] (-) TimerEvent: {}
+[30.692900] (-) TimerEvent: {}
+[30.793571] (-) TimerEvent: {}
+[30.894289] (-) TimerEvent: {}
+[30.994966] (-) TimerEvent: {}
+[31.095595] (-) TimerEvent: {}
+[31.196251] (-) TimerEvent: {}
+[31.296896] (-) TimerEvent: {}
+[31.397659] (-) TimerEvent: {}
+[31.498341] (-) TimerEvent: {}
+[31.599010] (-) TimerEvent: {}
+[31.699638] (-) TimerEvent: {}
+[31.800319] (-) TimerEvent: {}
+[31.900968] (-) TimerEvent: {}
+[32.001612] (-) TimerEvent: {}
+[32.102329] (-) TimerEvent: {}
+[32.203064] (-) TimerEvent: {}
+[32.303706] (-) TimerEvent: {}
+[32.404387] (-) TimerEvent: {}
+[32.505017] (-) TimerEvent: {}
+[32.605630] (-) TimerEvent: {}
+[32.706277] (-) TimerEvent: {}
+[32.806884] (-) TimerEvent: {}
+[32.907542] (-) TimerEvent: {}
+[33.008192] (-) TimerEvent: {}
+[33.108824] (-) TimerEvent: {}
+[33.209478] (-) TimerEvent: {}
+[33.310143] (-) TimerEvent: {}
+[33.410778] (-) TimerEvent: {}
+[33.511436] (-) TimerEvent: {}
+[33.612044] (-) TimerEvent: {}
+[33.712650] (-) TimerEvent: {}
+[33.813339] (-) TimerEvent: {}
+[33.914028] (-) TimerEvent: {}
+[34.014646] (-) TimerEvent: {}
+[34.115328] (-) TimerEvent: {}
+[34.215997] (-) TimerEvent: {}
+[34.316597] (-) TimerEvent: {}
+[34.417260] (-) TimerEvent: {}
+[34.517881] (-) TimerEvent: {}
+[34.618537] (-) TimerEvent: {}
+[34.719175] (-) TimerEvent: {}
+[34.819780] (-) TimerEvent: {}
+[34.920437] (-) TimerEvent: {}
+[35.021034] (-) TimerEvent: {}
+[35.121645] (-) TimerEvent: {}
+[35.222356] (-) TimerEvent: {}
+[35.323073] (-) TimerEvent: {}
+[35.423702] (-) TimerEvent: {}
+[35.524393] (-) TimerEvent: {}
+[35.625044] (-) TimerEvent: {}
+[35.725666] (-) TimerEvent: {}
+[35.826353] (-) TimerEvent: {}
+[35.927002] (-) TimerEvent: {}
+[36.027614] (-) TimerEvent: {}
+[36.128321] (-) TimerEvent: {}
+[36.228981] (-) TimerEvent: {}
+[36.329575] (-) TimerEvent: {}
+[36.430227] (-) TimerEvent: {}
+[36.530849] (-) TimerEvent: {}
+[36.631512] (-) TimerEvent: {}
+[36.732156] (-) TimerEvent: {}
+[36.832767] (-) TimerEvent: {}
+[36.933428] (-) TimerEvent: {}
+[37.034054] (-) TimerEvent: {}
+[37.134652] (-) TimerEvent: {}
+[37.235358] (-) TimerEvent: {}
+[37.336020] (-) TimerEvent: {}
+[37.436637] (-) TimerEvent: {}
+[37.537321] (-) TimerEvent: {}
+[37.638045] (-) TimerEvent: {}
+[37.738700] (-) TimerEvent: {}
+[37.839391] (-) TimerEvent: {}
+[37.940042] (-) TimerEvent: {}
+[38.040629] (-) TimerEvent: {}
+[38.141305] (-) TimerEvent: {}
+[38.241951] (-) TimerEvent: {}
+[38.342542] (-) TimerEvent: {}
+[38.443216] (-) TimerEvent: {}
+[38.543814] (-) TimerEvent: {}
+[38.644473] (-) TimerEvent: {}
+[38.745079] (-) TimerEvent: {}
+[38.845653] (-) TimerEvent: {}
+[38.946376] (-) TimerEvent: {}
+[39.047093] (-) TimerEvent: {}
+[39.135423] (turtlebot3_node) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o\x1b[0m\n'}
+[39.147289] (-) TimerEvent: {}
+[39.247954] (-) TimerEvent: {}
+[39.348538] (-) TimerEvent: {}
+[39.449141] (-) TimerEvent: {}
+[39.549717] (-) TimerEvent: {}
+[39.650341] (-) TimerEvent: {}
+[39.750945] (-) TimerEvent: {}
+[39.851523] (-) TimerEvent: {}
+[39.952127] (-) TimerEvent: {}
+[40.052742] (-) TimerEvent: {}
+[40.153418] (-) TimerEvent: {}
+[40.254048] (-) TimerEvent: {}
+[40.354694] (-) TimerEvent: {}
+[40.455451] (-) TimerEvent: {}
+[40.556078] (-) TimerEvent: {}
+[40.656708] (-) TimerEvent: {}
+[40.757467] (-) TimerEvent: {}
+[40.858068] (-) TimerEvent: {}
+[40.958720] (-) TimerEvent: {}
+[41.059405] (-) TimerEvent: {}
+[41.160046] (-) TimerEvent: {}
+[41.260671] (-) TimerEvent: {}
+[41.361304] (-) TimerEvent: {}
+[41.456284] (turtlebot3_node) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o\x1b[0m\n'}
+[41.461471] (-) TimerEvent: {}
+[41.562054] (-) TimerEvent: {}
+[41.662629] (-) TimerEvent: {}
+[41.763259] (-) TimerEvent: {}
+[41.863826] (-) TimerEvent: {}
+[41.964419] (-) TimerEvent: {}
+[42.065015] (-) TimerEvent: {}
+[42.165570] (-) TimerEvent: {}
+[42.266165] (-) TimerEvent: {}
+[42.366827] (-) TimerEvent: {}
+[42.467452] (-) TimerEvent: {}
+[42.568034] (-) TimerEvent: {}
+[42.668605] (-) TimerEvent: {}
+[42.769233] (-) TimerEvent: {}
+[42.869795] (-) TimerEvent: {}
+[42.970393] (-) TimerEvent: {}
+[43.070986] (-) TimerEvent: {}
+[43.171566] (-) TimerEvent: {}
+[43.272230] (-) TimerEvent: {}
+[43.372784] (-) TimerEvent: {}
+[43.473399] (-) TimerEvent: {}
+[43.573978] (-) TimerEvent: {}
+[43.674555] (-) TimerEvent: {}
+[43.775214] (-) TimerEvent: {}
+[43.875805] (-) TimerEvent: {}
+[43.976462] (-) TimerEvent: {}
+[44.077067] (-) TimerEvent: {}
+[44.177698] (-) TimerEvent: {}
+[44.278397] (-) TimerEvent: {}
+[44.379038] (-) TimerEvent: {}
+[44.479670] (-) TimerEvent: {}
+[44.580351] (-) TimerEvent: {}
+[44.681055] (-) TimerEvent: {}
+[44.781655] (-) TimerEvent: {}
+[44.882292] (-) TimerEvent: {}
+[44.982989] (-) TimerEvent: {}
+[45.083649] (-) TimerEvent: {}
+[45.184336] (-) TimerEvent: {}
+[45.285014] (-) TimerEvent: {}
+[45.385628] (-) TimerEvent: {}
+[45.486297] (-) TimerEvent: {}
+[45.587035] (-) TimerEvent: {}
+[45.687641] (-) TimerEvent: {}
+[45.788349] (-) TimerEvent: {}
+[45.889002] (-) TimerEvent: {}
+[45.989603] (-) TimerEvent: {}
+[46.090259] (-) TimerEvent: {}
+[46.190866] (-) TimerEvent: {}
+[46.291522] (-) TimerEvent: {}
+[46.392180] (-) TimerEvent: {}
+[46.492878] (-) TimerEvent: {}
+[46.593618] (-) TimerEvent: {}
+[46.694286] (-) TimerEvent: {}
+[46.794895] (-) TimerEvent: {}
+[46.895516] (-) TimerEvent: {}
+[46.996159] (-) TimerEvent: {}
+[47.096772] (-) TimerEvent: {}
+[47.197427] (-) TimerEvent: {}
+[47.298056] (-) TimerEvent: {}
+[47.398691] (-) TimerEvent: {}
+[47.499402] (-) TimerEvent: {}
+[47.600044] (-) TimerEvent: {}
+[47.700639] (-) TimerEvent: {}
+[47.801276] (-) TimerEvent: {}
+[47.901869] (-) TimerEvent: {}
+[48.002516] (-) TimerEvent: {}
+[48.103175] (-) TimerEvent: {}
+[48.203850] (-) TimerEvent: {}
+[48.304501] (-) TimerEvent: {}
+[48.405120] (-) TimerEvent: {}
+[48.505736] (-) TimerEvent: {}
+[48.606412] (-) TimerEvent: {}
+[48.707043] (-) TimerEvent: {}
+[48.807647] (-) TimerEvent: {}
+[48.908306] (-) TimerEvent: {}
+[49.008947] (-) TimerEvent: {}
+[49.109565] (-) TimerEvent: {}
+[49.210233] (-) TimerEvent: {}
+[49.310849] (-) TimerEvent: {}
+[49.411516] (-) TimerEvent: {}
+[49.512200] (-) TimerEvent: {}
+[49.612809] (-) TimerEvent: {}
+[49.713464] (-) TimerEvent: {}
+[49.814078] (-) TimerEvent: {}
+[49.914745] (-) TimerEvent: {}
+[50.015428] (-) TimerEvent: {}
+[50.116082] (-) TimerEvent: {}
+[50.216707] (-) TimerEvent: {}
+[50.317381] (-) TimerEvent: {}
+[50.418047] (-) TimerEvent: {}
+[50.518672] (-) TimerEvent: {}
+[50.619341] (-) TimerEvent: {}
+[50.720036] (-) TimerEvent: {}
+[50.820658] (-) TimerEvent: {}
+[50.921350] (-) TimerEvent: {}
+[51.021987] (-) TimerEvent: {}
+[51.122603] (-) TimerEvent: {}
+[51.223252] (-) TimerEvent: {}
+[51.323875] (-) TimerEvent: {}
+[51.424541] (-) TimerEvent: {}
+[51.525193] (-) TimerEvent: {}
+[51.625798] (-) TimerEvent: {}
+[51.726433] (-) TimerEvent: {}
+[51.827035] (-) TimerEvent: {}
+[51.927637] (-) TimerEvent: {}
+[52.028293] (-) TimerEvent: {}
+[52.128897] (-) TimerEvent: {}
+[52.229551] (-) TimerEvent: {}
+[52.330206] (-) TimerEvent: {}
+[52.430816] (-) TimerEvent: {}
+[52.531490] (-) TimerEvent: {}
+[52.632164] (-) TimerEvent: {}
+[52.732797] (-) TimerEvent: {}
+[52.833499] (-) TimerEvent: {}
+[52.934183] (-) TimerEvent: {}
+[53.034795] (-) TimerEvent: {}
+[53.135485] (-) TimerEvent: {}
+[53.236076] (-) TimerEvent: {}
+[53.336700] (-) TimerEvent: {}
+[53.437352] (-) TimerEvent: {}
+[53.538002] (-) TimerEvent: {}
+[53.638599] (-) TimerEvent: {}
+[53.739258] (-) TimerEvent: {}
+[53.839859] (-) TimerEvent: {}
+[53.940514] (-) TimerEvent: {}
+[54.041165] (-) TimerEvent: {}
+[54.141777] (-) TimerEvent: {}
+[54.242475] (-) TimerEvent: {}
+[54.343091] (-) TimerEvent: {}
+[54.443689] (-) TimerEvent: {}
+[54.544374] (-) TimerEvent: {}
+[54.645022] (-) TimerEvent: {}
+[54.745640] (-) TimerEvent: {}
+[54.846301] (-) TimerEvent: {}
+[54.946893] (-) TimerEvent: {}
+[55.047559] (-) TimerEvent: {}
+[55.148234] (-) TimerEvent: {}
+[55.248827] (-) TimerEvent: {}
+[55.349518] (-) TimerEvent: {}
+[55.450146] (-) TimerEvent: {}
+[55.550751] (-) TimerEvent: {}
+[55.651425] (-) TimerEvent: {}
+[55.752053] (-) TimerEvent: {}
+[55.852739] (-) TimerEvent: {}
+[55.953482] (-) TimerEvent: {}
+[56.054207] (-) TimerEvent: {}
+[56.154870] (-) TimerEvent: {}
+[56.255572] (-) TimerEvent: {}
+[56.356251] (-) TimerEvent: {}
+[56.456849] (-) TimerEvent: {}
+[56.557529] (-) TimerEvent: {}
+[56.658205] (-) TimerEvent: {}
+[56.758829] (-) TimerEvent: {}
+[56.859483] (-) TimerEvent: {}
+[56.960091] (-) TimerEvent: {}
+[57.060713] (-) TimerEvent: {}
+[57.161382] (-) TimerEvent: {}
+[57.262021] (-) TimerEvent: {}
+[57.362633] (-) TimerEvent: {}
+[57.463330] (-) TimerEvent: {}
+[57.564009] (-) TimerEvent: {}
+[57.664633] (-) TimerEvent: {}
+[57.765297] (-) TimerEvent: {}
+[57.865877] (-) TimerEvent: {}
+[57.966525] (-) TimerEvent: {}
+[58.067187] (-) TimerEvent: {}
+[58.167796] (-) TimerEvent: {}
+[58.268439] (-) TimerEvent: {}
+[58.369041] (-) TimerEvent: {}
+[58.469631] (-) TimerEvent: {}
+[58.570313] (-) TimerEvent: {}
+[58.670970] (-) TimerEvent: {}
+[58.771578] (-) TimerEvent: {}
+[58.872241] (-) TimerEvent: {}
+[58.972874] (-) TimerEvent: {}
+[59.073535] (-) TimerEvent: {}
+[59.174170] (-) TimerEvent: {}
+[59.274774] (-) TimerEvent: {}
+[59.375431] (-) TimerEvent: {}
+[59.476041] (-) TimerEvent: {}
+[59.576652] (-) TimerEvent: {}
+[59.677313] (-) TimerEvent: {}
+[59.777949] (-) TimerEvent: {}
+[59.878540] (-) TimerEvent: {}
+[59.979213] (-) TimerEvent: {}
+[60.079818] (-) TimerEvent: {}
+[60.180474] (-) TimerEvent: {}
+[60.281080] (-) TimerEvent: {}
+[60.381681] (-) TimerEvent: {}
+[60.482333] (-) TimerEvent: {}
+[60.582971] (-) TimerEvent: {}
+[60.683584] (-) TimerEvent: {}
+[60.784277] (-) TimerEvent: {}
+[60.884888] (-) TimerEvent: {}
+[60.985591] (-) TimerEvent: {}
+[61.086256] (-) TimerEvent: {}
+[61.186848] (-) TimerEvent: {}
+[61.287508] (-) TimerEvent: {}
+[61.388154] (-) TimerEvent: {}
+[61.488780] (-) TimerEvent: {}
+[61.589471] (-) TimerEvent: {}
+[61.690113] (-) TimerEvent: {}
+[61.790718] (-) TimerEvent: {}
+[61.891380] (-) TimerEvent: {}
+[61.992049] (-) TimerEvent: {}
+[62.092662] (-) TimerEvent: {}
+[62.193335] (-) TimerEvent: {}
+[62.293981] (-) TimerEvent: {}
+[62.394598] (-) TimerEvent: {}
+[62.495281] (-) TimerEvent: {}
+[62.595886] (-) TimerEvent: {}
+[62.696523] (-) TimerEvent: {}
+[62.797173] (-) TimerEvent: {}
+[62.897778] (-) TimerEvent: {}
+[62.998428] (-) TimerEvent: {}
+[63.099035] (-) TimerEvent: {}
+[63.199656] (-) TimerEvent: {}
+[63.300308] (-) TimerEvent: {}
+[63.400967] (-) TimerEvent: {}
+[63.501574] (-) TimerEvent: {}
+[63.602239] (-) TimerEvent: {}
+[63.702831] (-) TimerEvent: {}
+[63.803484] (-) TimerEvent: {}
+[63.904073] (-) TimerEvent: {}
+[64.004671] (-) TimerEvent: {}
+[64.105366] (-) TimerEvent: {}
+[64.206012] (-) TimerEvent: {}
+[64.306627] (-) TimerEvent: {}
+[64.407294] (-) TimerEvent: {}
+[64.507971] (-) TimerEvent: {}
+[64.608630] (-) TimerEvent: {}
+[64.709271] (-) TimerEvent: {}
+[64.809846] (-) TimerEvent: {}
+[64.910437] (-) TimerEvent: {}
+[65.011034] (-) TimerEvent: {}
+[65.111592] (-) TimerEvent: {}
+[65.212199] (-) TimerEvent: {}
+[65.312797] (-) TimerEvent: {}
+[65.413468] (-) TimerEvent: {}
+[65.514116] (-) TimerEvent: {}
+[65.614738] (-) TimerEvent: {}
+[65.715416] (-) TimerEvent: {}
+[65.816056] (-) TimerEvent: {}
+[65.916694] (-) TimerEvent: {}
+[66.017362] (-) TimerEvent: {}
+[66.118053] (-) TimerEvent: {}
+[66.218686] (-) TimerEvent: {}
+[66.319350] (-) TimerEvent: {}
+[66.419996] (-) TimerEvent: {}
+[66.520617] (-) TimerEvent: {}
+[66.621303] (-) TimerEvent: {}
+[66.721956] (-) TimerEvent: {}
+[66.822563] (-) TimerEvent: {}
+[66.923239] (-) TimerEvent: {}
+[67.024165] (-) TimerEvent: {}
+[67.125128] (-) TimerEvent: {}
+[67.225763] (-) TimerEvent: {}
+[67.326463] (-) TimerEvent: {}
+[67.427181] (-) TimerEvent: {}
+[67.527972] (-) TimerEvent: {}
+[67.628668] (-) TimerEvent: {}
+[67.729439] (-) TimerEvent: {}
+[67.830070] (-) TimerEvent: {}
+[67.930710] (-) TimerEvent: {}
+[68.031376] (-) TimerEvent: {}
+[68.132051] (-) TimerEvent: {}
+[68.232709] (-) TimerEvent: {}
+[68.333534] (-) TimerEvent: {}
+[68.434237] (-) TimerEvent: {}
+[68.534993] (-) TimerEvent: {}
+[68.636098] (-) TimerEvent: {}
+[68.737247] (-) TimerEvent: {}
+[68.838314] (-) TimerEvent: {}
+[68.938986] (-) TimerEvent: {}
+[69.039603] (-) TimerEvent: {}
+[69.140271] (-) TimerEvent: {}
+[69.240888] (-) TimerEvent: {}
+[69.341555] (-) TimerEvent: {}
+[69.442239] (-) TimerEvent: {}
+[69.542866] (-) TimerEvent: {}
+[69.643539] (-) TimerEvent: {}
+[69.744192] (-) TimerEvent: {}
+[69.844804] (-) TimerEvent: {}
+[69.945478] (-) TimerEvent: {}
+[70.046089] (-) TimerEvent: {}
+[70.146700] (-) TimerEvent: {}
+[70.247359] (-) TimerEvent: {}
+[70.348008] (-) TimerEvent: {}
+[70.448653] (-) TimerEvent: {}
+[70.549467] (-) TimerEvent: {}
+[70.650085] (-) TimerEvent: {}
+[70.750708] (-) TimerEvent: {}
+[70.851392] (-) TimerEvent: {}
+[70.952039] (-) TimerEvent: {}
+[71.052637] (-) TimerEvent: {}
+[71.153270] (-) TimerEvent: {}
+[71.254077] (-) TimerEvent: {}
+[71.354853] (-) TimerEvent: {}
+[71.455688] (-) TimerEvent: {}
+[71.556736] (-) TimerEvent: {}
+[71.657722] (-) TimerEvent: {}
+[71.759011] (-) TimerEvent: {}
+[71.859617] (-) TimerEvent: {}
+[71.960274] (-) TimerEvent: {}
+[72.060873] (-) TimerEvent: {}
+[72.161520] (-) TimerEvent: {}
+[72.262175] (-) TimerEvent: {}
+[72.362776] (-) TimerEvent: {}
+[72.463412] (-) TimerEvent: {}
+[72.564061] (-) TimerEvent: {}
+[72.664693] (-) TimerEvent: {}
+[72.765387] (-) TimerEvent: {}
+[72.866027] (-) TimerEvent: {}
+[72.966642] (-) TimerEvent: {}
+[73.067304] (-) TimerEvent: {}
+[73.167998] (-) TimerEvent: {}
+[73.268610] (-) TimerEvent: {}
+[73.369276] (-) TimerEvent: {}
+[73.469894] (-) TimerEvent: {}
+[73.570562] (-) TimerEvent: {}
+[73.671248] (-) TimerEvent: {}
+[73.771864] (-) TimerEvent: {}
+[73.872506] (-) TimerEvent: {}
+[73.973081] (-) TimerEvent: {}
+[74.073731] (-) TimerEvent: {}
+[74.174413] (-) TimerEvent: {}
+[74.275039] (-) TimerEvent: {}
+[74.375625] (-) TimerEvent: {}
+[74.476296] (-) TimerEvent: {}
+[74.577008] (-) TimerEvent: {}
+[74.677692] (-) TimerEvent: {}
+[74.778414] (-) TimerEvent: {}
+[74.879113] (-) TimerEvent: {}
+[74.979783] (-) TimerEvent: {}
+[75.080428] (-) TimerEvent: {}
+[75.181043] (-) TimerEvent: {}
+[75.281662] (-) TimerEvent: {}
+[75.382335] (-) TimerEvent: {}
+[75.483001] (-) TimerEvent: {}
+[75.583596] (-) TimerEvent: {}
+[75.684277] (-) TimerEvent: {}
+[75.784963] (-) TimerEvent: {}
+[75.885586] (-) TimerEvent: {}
+[75.986248] (-) TimerEvent: {}
+[76.086864] (-) TimerEvent: {}
+[76.187597] (-) TimerEvent: {}
+[76.288249] (-) TimerEvent: {}
+[76.388853] (-) TimerEvent: {}
+[76.489521] (-) TimerEvent: {}
+[76.590197] (-) TimerEvent: {}
+[76.690829] (-) TimerEvent: {}
+[76.791505] (-) TimerEvent: {}
+[76.892183] (-) TimerEvent: {}
+[76.992781] (-) TimerEvent: {}
+[77.093427] (-) TimerEvent: {}
+[77.194039] (-) TimerEvent: {}
+[77.294628] (-) TimerEvent: {}
+[77.395306] (-) TimerEvent: {}
+[77.495981] (-) TimerEvent: {}
+[77.596627] (-) TimerEvent: {}
+[77.697282] (-) TimerEvent: {}
+[77.797868] (-) TimerEvent: {}
+[77.898518] (-) TimerEvent: {}
+[77.999155] (-) TimerEvent: {}
+[78.099752] (-) TimerEvent: {}
+[78.200402] (-) TimerEvent: {}
+[78.301022] (-) TimerEvent: {}
+[78.401598] (-) TimerEvent: {}
+[78.502253] (-) TimerEvent: {}
+[78.602878] (-) TimerEvent: {}
+[78.703528] (-) TimerEvent: {}
+[78.804143] (-) TimerEvent: {}
+[78.904754] (-) TimerEvent: {}
+[79.005382] (-) TimerEvent: {}
+[79.106002] (-) TimerEvent: {}
+[79.206610] (-) TimerEvent: {}
+[79.307259] (-) TimerEvent: {}
+[79.407965] (-) TimerEvent: {}
+[79.508557] (-) TimerEvent: {}
+[79.609230] (-) TimerEvent: {}
+[79.709830] (-) TimerEvent: {}
+[79.810486] (-) TimerEvent: {}
+[79.911091] (-) TimerEvent: {}
+[80.011724] (-) TimerEvent: {}
+[80.112424] (-) TimerEvent: {}
+[80.213048] (-) TimerEvent: {}
+[80.313684] (-) TimerEvent: {}
+[80.414367] (-) TimerEvent: {}
+[80.515056] (-) TimerEvent: {}
+[80.615712] (-) TimerEvent: {}
+[80.716407] (-) TimerEvent: {}
+[80.817046] (-) TimerEvent: {}
+[80.917668] (-) TimerEvent: {}
+[81.018364] (-) TimerEvent: {}
+[81.119023] (-) TimerEvent: {}
+[81.219654] (-) TimerEvent: {}
+[81.320355] (-) TimerEvent: {}
+[81.421053] (-) TimerEvent: {}
+[81.521708] (-) TimerEvent: {}
+[81.622387] (-) TimerEvent: {}
+[81.723063] (-) TimerEvent: {}
+[81.823702] (-) TimerEvent: {}
+[81.924394] (-) TimerEvent: {}
+[82.025025] (-) TimerEvent: {}
+[82.125629] (-) TimerEvent: {}
+[82.226307] (-) TimerEvent: {}
+[82.326942] (-) TimerEvent: {}
+[82.427551] (-) TimerEvent: {}
+[82.528236] (-) TimerEvent: {}
+[82.628855] (-) TimerEvent: {}
+[82.729522] (-) TimerEvent: {}
+[82.830178] (-) TimerEvent: {}
+[82.930785] (-) TimerEvent: {}
+[83.031432] (-) TimerEvent: {}
+[83.132044] (-) TimerEvent: {}
+[83.232630] (-) TimerEvent: {}
+[83.333329] (-) TimerEvent: {}
+[83.433963] (-) TimerEvent: {}
+[83.534576] (-) TimerEvent: {}
+[83.635257] (-) TimerEvent: {}
+[83.735884] (-) TimerEvent: {}
+[83.836528] (-) TimerEvent: {}
+[83.937165] (-) TimerEvent: {}
+[84.037770] (-) TimerEvent: {}
+[84.138472] (-) TimerEvent: {}
+[84.239105] (-) TimerEvent: {}
+[84.339669] (-) TimerEvent: {}
+[84.440332] (-) TimerEvent: {}
+[84.541014] (-) TimerEvent: {}
+[84.641636] (-) TimerEvent: {}
+[84.742302] (-) TimerEvent: {}
+[84.842953] (-) TimerEvent: {}
+[84.943558] (-) TimerEvent: {}
+[85.044181] (-) TimerEvent: {}
+[85.144795] (-) TimerEvent: {}
+[85.245423] (-) TimerEvent: {}
+[85.346059] (-) TimerEvent: {}
+[85.446660] (-) TimerEvent: {}
+[85.547280] (-) TimerEvent: {}
+[85.572845] (turtlebot3_node) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o\x1b[0m\n'}
+[85.647521] (-) TimerEvent: {}
+[85.748274] (-) TimerEvent: {}
+[85.848998] (-) TimerEvent: {}
+[85.949750] (-) TimerEvent: {}
+[86.050424] (-) TimerEvent: {}
+[86.151074] (-) TimerEvent: {}
+[86.251750] (-) TimerEvent: {}
+[86.352484] (-) TimerEvent: {}
+[86.453122] (-) TimerEvent: {}
+[86.553747] (-) TimerEvent: {}
+[86.654411] (-) TimerEvent: {}
+[86.755067] (-) TimerEvent: {}
+[86.855753] (-) TimerEvent: {}
+[86.956448] (-) TimerEvent: {}
+[87.057081] (-) TimerEvent: {}
+[87.157713] (-) TimerEvent: {}
+[87.258399] (-) TimerEvent: {}
+[87.359078] (-) TimerEvent: {}
+[87.459747] (-) TimerEvent: {}
+[87.560416] (-) TimerEvent: {}
+[87.643822] (turtlebot3_node) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o\x1b[0m\n'}
+[87.662089] (-) TimerEvent: {}
+[87.765082] (-) TimerEvent: {}
+[87.865757] (-) TimerEvent: {}
+[87.966551] (-) TimerEvent: {}
+[88.067299] (-) TimerEvent: {}
+[88.170096] (-) TimerEvent: {}
+[88.270875] (-) TimerEvent: {}
+[88.371671] (-) TimerEvent: {}
+[88.475098] (-) TimerEvent: {}
+[88.575870] (-) TimerEvent: {}
+[88.676711] (-) TimerEvent: {}
+[88.778145] (-) TimerEvent: {}
+[88.878994] (-) TimerEvent: {}
+[88.979788] (-) TimerEvent: {}
+[89.080622] (-) TimerEvent: {}
+[89.181427] (-) TimerEvent: {}
+[89.282782] (-) TimerEvent: {}
+[89.383731] (-) TimerEvent: {}
+[89.486088] (-) TimerEvent: {}
+[89.588216] (-) TimerEvent: {}
+[89.690117] (-) TimerEvent: {}
+[89.751608] (turtlebot3_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o\x1b[0m\n'}
+[89.793012] (-) TimerEvent: {}
+[89.896119] (-) TimerEvent: {}
+[89.997662] (-) TimerEvent: {}
+[90.100833] (-) TimerEvent: {}
+[90.206841] (-) TimerEvent: {}
+[90.328616] (-) TimerEvent: {}
+[90.435106] (-) TimerEvent: {}
+[90.535967] (-) TimerEvent: {}
+[90.637719] (-) TimerEvent: {}
+[90.739548] (-) TimerEvent: {}
+[90.843028] (-) TimerEvent: {}
+[90.946255] (-) TimerEvent: {}
+[91.051844] (-) TimerEvent: {}
+[91.153346] (-) TimerEvent: {}
+[91.254309] (-) TimerEvent: {}
+[91.355417] (-) TimerEvent: {}
+[91.459698] (-) TimerEvent: {}
+[91.563698] (-) TimerEvent: {}
+[91.666122] (-) TimerEvent: {}
+[91.769154] (-) TimerEvent: {}
+[91.870140] (-) TimerEvent: {}
+[91.972481] (-) TimerEvent: {}
+[92.074609] (-) TimerEvent: {}
+[92.177500] (-) TimerEvent: {}
+[92.281516] (-) TimerEvent: {}
+[92.385163] (-) TimerEvent: {}
+[92.486073] (-) TimerEvent: {}
+[92.587486] (-) TimerEvent: {}
+[92.688470] (-) TimerEvent: {}
+[92.789527] (-) TimerEvent: {}
+[92.891192] (-) TimerEvent: {}
+[92.992980] (-) TimerEvent: {}
+[93.094113] (-) TimerEvent: {}
+[93.196726] (-) TimerEvent: {}
+[93.299326] (-) TimerEvent: {}
+[93.400454] (-) TimerEvent: {}
+[93.503244] (-) TimerEvent: {}
+[93.604229] (-) TimerEvent: {}
+[93.705418] (-) TimerEvent: {}
+[93.806578] (-) TimerEvent: {}
+[93.907526] (-) TimerEvent: {}
+[94.008332] (-) TimerEvent: {}
+[94.109412] (-) TimerEvent: {}
+[94.210477] (-) TimerEvent: {}
+[94.311561] (-) TimerEvent: {}
+[94.412358] (-) TimerEvent: {}
+[94.513241] (-) TimerEvent: {}
+[94.614087] (-) TimerEvent: {}
+[94.715045] (-) TimerEvent: {}
+[94.815755] (-) TimerEvent: {}
+[94.920136] (-) TimerEvent: {}
+[95.023137] (-) TimerEvent: {}
+[95.124105] (-) TimerEvent: {}
+[95.225035] (-) TimerEvent: {}
+[95.325992] (-) TimerEvent: {}
+[95.428290] (-) TimerEvent: {}
+[95.546469] (-) TimerEvent: {}
+[95.999704] (-) TimerEvent: {}
+[96.232159] (-) TimerEvent: {}
+[96.333398] (-) TimerEvent: {}
+[96.435293] (-) TimerEvent: {}
+[96.536902] (-) TimerEvent: {}
+[96.639095] (-) TimerEvent: {}
+[99.470256] (-) TimerEvent: {}
+[121.156037] (-) TimerEvent: {}
+[121.299273] (-) TimerEvent: {}
+[328.077720] (-) TimerEvent: {}
+[460.117552] (-) TimerEvent: {}
+[597.453130] (-) TimerEvent: {}
+[752.414521] (-) TimerEvent: {}

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-45131d8f734c14fd088c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rplidar_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_client-8efeebd13d7855decb26.json",
+					"name" : "rplidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_composition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_composition-5d02877a3ae9e6b5e6fd.json",
+					"name" : "rplidar_composition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_node-17268993381afa9fc9a5.json",
+					"name" : "rplidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_ros_uninstall-9efae9f4e93935dd8563.json",
+					"name" : "rplidar_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1b63f0d05ef99f2f160b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/turtlebot3_ws/build/rplidar_ros",
+		"source" : "/home/pi/turtlebot3_ws/src/rplidar_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
