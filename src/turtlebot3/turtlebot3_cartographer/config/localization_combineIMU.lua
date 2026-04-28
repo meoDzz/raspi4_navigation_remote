@@ -47,7 +47,7 @@ POSE_GRAPH.constraint_builder.min_score = 0.65
 POSE_GRAPH.constraint_builder.global_localization_min_score = 0.7
 
 -- SỬA 3: Đưa thông số tối ưu hóa Pose Graph lên đây (từ phần rác dưới cùng của bạn)
-POSE_GRAPH.optimize_every_n_nodes = 20
+-- POSE_GRAPH.optimize_every_n_nodes = 20
 
 -- Chỉ cần DUY NHẤT một dòng return ở cuối cùng file
 return options
