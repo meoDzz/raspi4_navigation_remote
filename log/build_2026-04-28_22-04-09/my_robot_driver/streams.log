@@ -1,0 +1,18 @@
+[10.877s] Invoking command in '/home/pi/turtlebot3_ws/build/my_robot_driver': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data
+[21.228s] running develop
+[84.580s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[84.608s]   self.local_index = Environment(self.shadow_path + sys.path)
+[96.693s] running egg_info
+[98.442s] writing my_robot_driver.egg-info/PKG-INFO
+[98.699s] writing dependency_links to my_robot_driver.egg-info/dependency_links.txt
+[101.049s] writing entry points to my_robot_driver.egg-info/entry_points.txt
+[101.090s] writing requirements to my_robot_driver.egg-info/requires.txt
+[101.116s] writing top-level names to my_robot_driver.egg-info/top_level.txt
+[105.640s] reading manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[105.778s] writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[106.589s] running build_ext
+[106.616s] Creating /home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages/my-robot-driver.egg-link (link to .)
+[106.850s] Installing imu_node script to /home/pi/turtlebot3_ws/install/my_robot_driver/lib/my_robot_driver
+[106.874s] 
+[106.874s] Installed /home/pi/turtlebot3_ws/build/my_robot_driver
+[106.889s] running symlink_data

@@ -1,0 +1,23 @@
+[6.806s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[13.792s] running develop
+[46.545s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[68.533s]   self.local_index = Environment(self.shadow_path + sys.path)
+[85.997s] running egg_info
+[91.735s] writing turtlebot3_example.egg-info/PKG-INFO
+[92.237s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[92.580s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[92.613s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[92.634s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[96.456s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[96.684s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[99.959s] running build_ext
+[100.013s] Creating /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[100.261s] Installing turtlebot3_absolute_move script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.317s] Installing turtlebot3_interactive_marker script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.330s] Installing turtlebot3_obstacle_detection script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.333s] Installing turtlebot3_patrol_client script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.334s] Installing turtlebot3_patrol_server script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.336s] Installing turtlebot3_relative_move script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[100.340s] 
+[100.341s] Installed /home/pi/turtlebot3_ws/build/turtlebot3_example
+[100.349s] running symlink_data

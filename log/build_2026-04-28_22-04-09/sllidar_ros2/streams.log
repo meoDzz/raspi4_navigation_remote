@@ -1,0 +1,52 @@
+[2.910s] Invoking command in '/home/pi/turtlebot3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/sllidar_ros2 -- -j4 -l4
+[3.899s] [ 90%] Built target sllidar_node
+[3.909s] [100%] Built target sllidar_client
+[4.229s] Invoked command in '/home/pi/turtlebot3_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/sllidar_ros2 -- -j4 -l4
+[4.239s] Invoking command in '/home/pi/turtlebot3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/sllidar_ros2
+[4.317s] -- Install configuration: ""
+[4.318s] -- Execute custom install script
+[4.324s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[4.330s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[4.331s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[4.336s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[4.339s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[4.340s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[4.340s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[4.341s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[4.348s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[4.349s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[4.350s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[4.352s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[4.355s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[4.357s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[4.358s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[4.358s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[4.359s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[4.362s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[4.363s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[4.365s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[4.367s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[4.369s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[4.370s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[4.372s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[4.373s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[4.375s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[4.376s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[4.379s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[4.380s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[4.381s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[4.385s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[4.385s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[4.386s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[4.387s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[4.390s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[4.390s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[4.391s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[4.394s] -- Symlinking: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[4.492s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[4.492s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.498s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.498s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[4.499s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[4.502s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[4.517s] Invoked command in '/home/pi/turtlebot3_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/sllidar_ros2

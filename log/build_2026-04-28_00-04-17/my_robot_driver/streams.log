@@ -1,0 +1,26 @@
+[4.304s] Invoking command in '/home/pi/turtlebot3_ws/build/my_robot_driver': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data
+[6.079s] running develop
+[6.895s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[6.896s]   self.local_index = Environment(self.shadow_path + sys.path)
+[7.098s] running egg_info
+[7.098s] creating my_robot_driver.egg-info
+[7.186s] writing my_robot_driver.egg-info/PKG-INFO
+[7.187s] writing dependency_links to my_robot_driver.egg-info/dependency_links.txt
+[7.188s] writing entry points to my_robot_driver.egg-info/entry_points.txt
+[7.189s] writing requirements to my_robot_driver.egg-info/requires.txt
+[7.189s] writing top-level names to my_robot_driver.egg-info/top_level.txt
+[7.190s] writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[7.373s] reading manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[7.375s] writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[7.470s] running build_ext
+[7.471s] Creating /home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages/my-robot-driver.egg-link (link to .)
+[7.473s] Installing imu_node script to /home/pi/turtlebot3_ws/install/my_robot_driver/lib/my_robot_driver
+[7.475s] 
+[7.475s] Installed /home/pi/turtlebot3_ws/build/my_robot_driver
+[7.476s] running symlink_data
+[7.476s] creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index
+[7.477s] creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index
+[7.477s] creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index/packages
+[7.478s] symbolically linking /home/pi/turtlebot3_ws/build/my_robot_driver/resource/my_robot_driver -> /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index/packages
+[7.479s] symbolically linking /home/pi/turtlebot3_ws/build/my_robot_driver/package.xml -> /home/pi/turtlebot3_ws/install/my_robot_driver/share/my_robot_driver
+[7.640s] Invoked command in '/home/pi/turtlebot3_ws/build/my_robot_driver' returned '0': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data

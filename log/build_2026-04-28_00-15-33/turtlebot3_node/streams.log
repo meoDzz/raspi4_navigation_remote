@@ -1,0 +1,29 @@
+[0.226s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_navigation2:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3_cartographer:/home/pi/turtlebot3_ws/install/sllidar_ros2:/home/pi/turtlebot3_ws/install/rplidar_ros:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pi/turtlebot3_ws/install/my_robot_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy PYTHONPATH=/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/build/my_robot_driver:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[0.705s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.083s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.201s] -- Found dynamixel_sdk: 4.0.3 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[2.221s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.463s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.534s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.979s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[3.308s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.323s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.470s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.781s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.926s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.070s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.171s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[4.197s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.818s] -- Found turtlebot3_msgs: 2.4.0 (/home/pi/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[5.535s] -- Configuring done (4.9s)
+[5.865s] -- Generating done (0.2s)
+[5.892s] -- Build files have been written to: /home/pi/turtlebot3_ws/build/turtlebot3_node
+[6.332s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[24.178s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[34.261s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[35.346s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[36.444s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[37.173s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[40.111s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m

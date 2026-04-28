@@ -1,0 +1,38 @@
+[0.108s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/my_robot_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[0.582s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.053s] -- Configuring done (2.5s)
+[3.135s] -- Generating done (0.0s)
+[3.165s] -- Build files have been written to: /home/pi/turtlebot3_ws/build/turtlebot3_navigation2
+[3.385s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/my_robot_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[3.482s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/my_robot_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3_navigation2
+[3.547s] -- Install configuration: ""
+[3.549s] -- Execute custom install script
+[3.551s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.555s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.559s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.560s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.561s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[3.562s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[3.564s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[3.566s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[3.567s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[3.571s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.572s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.576s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.577s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.578s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.579s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.582s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.583s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.584s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.586s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.587s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.588s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.591s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.591s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.687s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.693s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.694s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.700s] -- Up-to-date symlink: /home/pi/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.718s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/my_robot_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3_navigation2

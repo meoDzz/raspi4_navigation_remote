@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001500] (my_robot_driver) JobQueued: {'identifier': 'my_robot_driver', 'dependencies': OrderedDict()}
+[0.001656] (my_robot_driver) JobStarted: {'identifier': 'my_robot_driver'}
+[0.099265] (-) TimerEvent: {}
+[0.199848] (-) TimerEvent: {}
+[0.300427] (-) TimerEvent: {}
+[0.401033] (-) TimerEvent: {}
+[0.502148] (-) TimerEvent: {}
+[0.602735] (-) TimerEvent: {}
+[0.703266] (-) TimerEvent: {}
+[0.803828] (-) TimerEvent: {}
+[0.904553] (-) TimerEvent: {}
+[1.005935] (-) TimerEvent: {}
+[1.106651] (-) TimerEvent: {}
+[1.207274] (-) TimerEvent: {}
+[1.307905] (-) TimerEvent: {}
+[1.408603] (-) TimerEvent: {}
+[1.509571] (-) TimerEvent: {}
+[1.610104] (-) TimerEvent: {}
+[1.710626] (-) TimerEvent: {}
+[1.811151] (-) TimerEvent: {}
+[1.911706] (-) TimerEvent: {}
+[2.012265] (-) TimerEvent: {}
+[2.112981] (-) TimerEvent: {}
+[2.213546] (-) TimerEvent: {}
+[2.314068] (-) TimerEvent: {}
+[2.414668] (-) TimerEvent: {}
+[2.516077] (-) TimerEvent: {}
+[2.616677] (-) TimerEvent: {}
+[2.719831] (-) TimerEvent: {}
+[2.820545] (-) TimerEvent: {}
+[2.921093] (-) TimerEvent: {}
+[3.021753] (-) TimerEvent: {}
+[3.122362] (-) TimerEvent: {}
+[3.223059] (-) TimerEvent: {}
+[3.324578] (-) TimerEvent: {}
+[3.425409] (-) TimerEvent: {}
+[3.526070] (-) TimerEvent: {}
+[3.626697] (-) TimerEvent: {}
+[3.727318] (-) TimerEvent: {}
+[3.828012] (-) TimerEvent: {}
+[3.928666] (-) TimerEvent: {}
+[4.030252] (-) TimerEvent: {}
+[4.131043] (-) TimerEvent: {}
+[4.232198] (-) TimerEvent: {}
+[4.296105] (my_robot_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/turtlebot3_ws/build/my_robot_driver/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/turtlebot3_ws/build/my_robot_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.19 37970 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '<CycloneDDS><Domain><Discovery><Peers><Peer address="192.168.1.19"/></Peers></Discovery></Domain></CycloneDDS>', 'OLDPWD': '/home/pi/turtlebot3_ws', 'TERM_PROGRAM_VERSION': '1.112.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f904480e-eada-49c1-9471-8cbf6dee4583.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/pi/.vscode-server/cli/servers/Stable-07ff9d6178ede9a1bd12ad3399074d726ebe6e43/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9263d53101.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_navigation2:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3_cartographer:/home/pi/turtlebot3_ws/install/sllidar_ros2:/home/pi/turtlebot3_ws/install/rplidar_ros:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/turtlebot3_ws/build/my_robot_driver', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.19 37970 192.168.1.17 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/build/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_navigation2:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3_cartographer:/home/pi/turtlebot3_ws/install/sllidar_ros2:/home/pi/turtlebot3_ws/install/rplidar_ros:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.332407] (-) TimerEvent: {}
+[4.433299] (-) TimerEvent: {}
+[4.534001] (-) TimerEvent: {}
+[4.637699] (-) TimerEvent: {}
+[4.743763] (-) TimerEvent: {}
+[4.847714] (-) TimerEvent: {}
+[4.948593] (-) TimerEvent: {}
+[5.049724] (-) TimerEvent: {}
+[5.150392] (-) TimerEvent: {}
+[5.250983] (-) TimerEvent: {}
+[5.351537] (-) TimerEvent: {}
+[5.452060] (-) TimerEvent: {}
+[5.552629] (-) TimerEvent: {}
+[5.653156] (-) TimerEvent: {}
+[5.753671] (-) TimerEvent: {}
+[5.854182] (-) TimerEvent: {}
+[5.954804] (-) TimerEvent: {}
+[6.055385] (-) TimerEvent: {}
+[6.079836] (my_robot_driver) StdoutLine: {'line': b'running develop\n'}
+[6.155579] (-) TimerEvent: {}
+[6.256101] (-) TimerEvent: {}
+[6.356632] (-) TimerEvent: {}
+[6.457234] (-) TimerEvent: {}
+[6.557827] (-) TimerEvent: {}
+[6.658339] (-) TimerEvent: {}
+[6.758896] (-) TimerEvent: {}
+[6.859413] (-) TimerEvent: {}
+[6.896423] (my_robot_driver) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[6.897095] (my_robot_driver) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[6.959593] (-) TimerEvent: {}
+[7.060115] (-) TimerEvent: {}
+[7.099067] (my_robot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.099684] (my_robot_driver) StdoutLine: {'line': b'creating my_robot_driver.egg-info\n'}
+[7.160274] (-) TimerEvent: {}
+[7.187406] (my_robot_driver) StdoutLine: {'line': b'writing my_robot_driver.egg-info/PKG-INFO\n'}
+[7.188784] (my_robot_driver) StdoutLine: {'line': b'writing dependency_links to my_robot_driver.egg-info/dependency_links.txt\n'}
+[7.189563] (my_robot_driver) StdoutLine: {'line': b'writing entry points to my_robot_driver.egg-info/entry_points.txt\n'}
+[7.190237] (my_robot_driver) StdoutLine: {'line': b'writing requirements to my_robot_driver.egg-info/requires.txt\n'}
+[7.190825] (my_robot_driver) StdoutLine: {'line': b'writing top-level names to my_robot_driver.egg-info/top_level.txt\n'}
+[7.191374] (my_robot_driver) StdoutLine: {'line': b"writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'\n"}
+[7.260429] (-) TimerEvent: {}
+[7.361014] (-) TimerEvent: {}
+[7.373957] (my_robot_driver) StdoutLine: {'line': b"reading manifest file 'my_robot_driver.egg-info/SOURCES.txt'\n"}
+[7.376354] (my_robot_driver) StdoutLine: {'line': b"writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'\n"}
+[7.461173] (-) TimerEvent: {}
+[7.471703] (my_robot_driver) StdoutLine: {'line': b'running build_ext\n'}
+[7.472374] (my_robot_driver) StdoutLine: {'line': b'Creating /home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages/my-robot-driver.egg-link (link to .)\n'}
+[7.474803] (my_robot_driver) StdoutLine: {'line': b'Installing imu_node script to /home/pi/turtlebot3_ws/install/my_robot_driver/lib/my_robot_driver\n'}
+[7.476212] (my_robot_driver) StdoutLine: {'line': b'\n'}
+[7.476802] (my_robot_driver) StdoutLine: {'line': b'Installed /home/pi/turtlebot3_ws/build/my_robot_driver\n'}
+[7.477200] (my_robot_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[7.477746] (my_robot_driver) StdoutLine: {'line': b'creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index\n'}
+[7.478145] (my_robot_driver) StdoutLine: {'line': b'creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index\n'}
+[7.478542] (my_robot_driver) StdoutLine: {'line': b'creating /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index/packages\n'}
+[7.479088] (my_robot_driver) StdoutLine: {'line': b'symbolically linking /home/pi/turtlebot3_ws/build/my_robot_driver/resource/my_robot_driver -> /home/pi/turtlebot3_ws/install/my_robot_driver/share/ament_index/resource_index/packages\n'}
+[7.479779] (my_robot_driver) StdoutLine: {'line': b'symbolically linking /home/pi/turtlebot3_ws/build/my_robot_driver/package.xml -> /home/pi/turtlebot3_ws/install/my_robot_driver/share/my_robot_driver\n'}
+[7.561452] (-) TimerEvent: {}
+[7.640888] (my_robot_driver) CommandEnded: {'returncode': 0}
+[7.661593] (-) TimerEvent: {}
+[7.690279] (my_robot_driver) JobEnded: {'identifier': 'my_robot_driver', 'rc': 0}
+[7.693371] (-) EventReactorShutdown: {}

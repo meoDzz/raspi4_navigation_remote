@@ -1,0 +1,19 @@
+[4.882s] Invoking command in '/home/pi/turtlebot3_ws/build/my_robot_driver': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data
+[6.576s] running develop
+[7.434s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[7.435s]   self.local_index = Environment(self.shadow_path + sys.path)
+[7.651s] running egg_info
+[7.740s] writing my_robot_driver.egg-info/PKG-INFO
+[7.741s] writing dependency_links to my_robot_driver.egg-info/dependency_links.txt
+[7.748s] writing entry points to my_robot_driver.egg-info/entry_points.txt
+[7.751s] writing requirements to my_robot_driver.egg-info/requires.txt
+[7.755s] writing top-level names to my_robot_driver.egg-info/top_level.txt
+[7.974s] reading manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[7.979s] writing manifest file 'my_robot_driver.egg-info/SOURCES.txt'
+[8.077s] running build_ext
+[8.079s] Creating /home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages/my-robot-driver.egg-link (link to .)
+[8.082s] Installing imu_node script to /home/pi/turtlebot3_ws/install/my_robot_driver/lib/my_robot_driver
+[8.083s] 
+[8.083s] Installed /home/pi/turtlebot3_ws/build/my_robot_driver
+[8.085s] running symlink_data
+[8.248s] Invoked command in '/home/pi/turtlebot3_ws/build/my_robot_driver' returned '0': PYTHONPATH=/home/pi/turtlebot3_ws/build/my_robot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/turtlebot3_ws/install/my_robot_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/my_robot_driver/build --no-deps symlink_data
